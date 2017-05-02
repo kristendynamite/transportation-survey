@@ -9,6 +9,25 @@
     <title>Transportation Survey</title>
   </head>
   <body>
-
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Transportation Survey</h1>
+      </div>
+      <form id="transportation_survey">
+        <div class="form-group">
+          <p>What forms of transportation have you used to travel to work/school in the past year?:</p>
+          <input type="checkbox" name="work-transportation" value="horse">Riding a horse.<br>
+          <input type="checkbox" name="work-transportation" value="surfboard">Riding a radical wave.<br>
+          <input type="checkbox" name="work-transportation" value="carriage">Riding in a carriage that turns into a pumpkin at midnight.<br>
+          <input type="checkbox" name="work-transportation" value="spaceship">Riding my intergalactic spaceship.<br>
+          <input type="checkbox" name="work-transportation" value="brewbarge">Bicycling down the Willamette with friends on my brewbarge.<br>
+          <input type="checkbox" name="work-transportation" value="hippogriff">Flying in on my hippogriff.<br>
+        </div>
+        <button type="submit">Submit Survey</button>
+      </form>
+      <span id="work-responses">
+        <p>This is how you went to work/school in the past year!</p>
+      </span>
+    </div>
   </body>
 </html>
